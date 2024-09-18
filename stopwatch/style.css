@@ -1,0 +1,57 @@
+body{
+   background: radial-gradient(rgb(20, 216, 147),rgb(8, 120, 132));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+#stopwatch{
+   font-weight: 600;
+   font-size: 30px;
+}
+#stop{
+   font-size: 12px;
+   padding: 3px 10px;
+   background-color: red;
+   border: none;
+   border-radius: 3px;
+}
+#pause{
+   font-size: 12px;
+   padding: 3px 10px;
+   background-color:rgb(215, 215, 45);
+   border-radius: 3px;
+   border: none;
+}
+#start{
+   font-size: 12px;
+   padding: 3px 10px;
+   background-color: rgb(19, 229, 117);
+   border-radius: 3px;
+   border: none;
+}
+#mark{
+   font-size: 12px;
+   padding: 3px 10px;
+   border-radius: 3px;
+   border: none;
+}
+
+#markedTime{
+  
+   color:rgb(255, 255, 254);
+   font-size: 20px;
+   font-weight: normal;
+   border: none;
+  
+}
